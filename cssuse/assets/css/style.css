@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+body{
+    min-height:100vh;
+    background:url('../img/bg.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:#fff;
+    box-shadow:0 5px 10px #000;
+    padding:0px 7%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-weight:bolder;
+    font-size:25px;
+    color:#11a531;
+}
+header .navbar ul{
+    list-style:none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 16px;
+    padding:20px;
+    color: #11a531;
+    display:block;
+}
+header .navbar ul li a:hover{
+    background:#11a531;
+    color: #fff;
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: -14px;
+    width: 129px;
+    background: #fff;
+    display:none;
+}
+header .navbar ul li ul li{
+    width:100%;
+    border-top:1px solid #000;
+}
+header .navbar ul li ul li ul{
+    left:130px;
+    top: 0px;
+}
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover >ul{
+    display: initial;
+}
+#menu-bar{
+    display:none;
+}
+
+header label{
+    font-size:20px;
+    color: #333;
+    cursor:pointer;
+    display:none;
+}
