@@ -19,7 +19,7 @@ header{
     right:0;
     background:#fff;
     box-shadow:0 5px 10px #000;
-    padding:0px 16%;
+    padding:0px 7%;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -39,10 +39,9 @@ header .navbar ul li{
 }
 header .navbar ul li a{
     font-size: 16px;
-    padding: 12px;
+    padding:20px;
     color: #11a531;
-    text-indent: 27px;
-    display: block;
+    display:block;
 }
 header .navbar ul li a:hover{
     background:#11a531;
@@ -50,17 +49,17 @@ header .navbar ul li a:hover{
 }
 header .navbar ul li ul{
     position: absolute;
-    left: -8px;
-    width: 157px;
+    left: -14px;
+    width: 129px;
     background: #fff;
-    display: none;
+    display:none;
 }
 header .navbar ul li ul li{
     width:100%;
     border-top:1px solid #000;
 }
 header .navbar ul li ul li ul{
-    left:158px;
+    left:130px;
     top: 0px;
 }
 header .navbar ul li:focus-within>ul,

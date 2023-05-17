@@ -6,15 +6,17 @@
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
     display: none;
-}
+} 
 
-.navbar-expand-lg .navbar-nav .dropdown:hover .dropdown-menu {
+
+.navbar-expand-lg .navbar-nav .dropdown:hover .dropdown-menu  {
     position:absolute;
     display:block;
     top:30px;
     left:0;
     cursor: pointer;
 }
+
 
 @media only screen and (max-width:991px)
 {
